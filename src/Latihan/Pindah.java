@@ -135,6 +135,7 @@ public class Pindah extends javax.swing.JFrame {
     private void btnPindahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPindahActionPerformed
         // TODO add your handling code here:
         txtTujuan.setText(txtAsal.getText());
+        txtAsal.setText("");
     }//GEN-LAST:event_btnPindahActionPerformed
 
     private void btnKwadratkanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKwadratkanActionPerformed
